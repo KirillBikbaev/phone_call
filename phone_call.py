@@ -10,7 +10,6 @@ class Phone:
         return f'Телефон {self.model} (номер: {self.number}), вес: {self.weight} грамм.'
     
     def receive_call(self, name):
-        self.name = name
         print(f"Звонит {name} на {self.number}")
     
     def get_number(self):
