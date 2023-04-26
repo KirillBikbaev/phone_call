@@ -23,10 +23,10 @@ print(phone1) # Вывод информации о каждом телефоне
 print(phone2)
 print(phone3)
 
-phone1.receive_call('Артем') # Вызываем метод receive_call() для каждого телефона
-phone2.receive_call('Даша')
-phone3.receive_call('Служба доставки')
-
 print('Номер телефона 1:', phone1.get_number()) # Вызываем метод get_number() для каждого телефона
 print('Номер телефона 2:', phone2.get_number())
 print('Номер телефона 3:', phone3.get_number())
+
+phone1.receive_call('Артем') # Вызываем метод receive_call() для каждого телефона
+phone2.receive_call('Даша')
+phone3.receive_call('Служба доставки')
